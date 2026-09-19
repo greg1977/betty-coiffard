@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Betty Coiffard — Immobilier de prestige, Pays d'Aix-en-Provence</title>
+<meta name="description" content="Betty Coiffard, consultante en immobilier de prestige à Aix-en-Provence — Sotheby's International Realty. Estimation confidentielle de votre propriété.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://bettycoiffard.com/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Betty Coiffard — Immobilier de prestige, Pays d'Aix-en-Provence">
+<meta property="og:description" content="Estimation confidentielle de votre propriété. Sotheby's International Realty.">
+<meta property="og:image" content="https://bettycoiffard.com/betty.jpg">
+<meta property="og:locale" content="fr_FR">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=Jost:wght@300;400;500&display=swap">
+<style>
+:root{
+  --ground:#F5F2EC;
+  --ground-warm:#EAE4D9;
+  --ink:#1B1A17;
+  --ink-soft:#504B43;
+  --ink-muted:#5A564E;
+  --accent:#0E2A3F;
+  --accent-line:#33546B;
+  --accent-text:#C9D3DC;
+  --accent-faint:#AFBECB;
+  --gold:#8A6F4A;
+  --rule:#C2BAAB;
+  --pad:72px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  margin:0;
+  background:var(--ground);
+  color:var(--ink);
+  font-family:'Jost',system-ui,-apple-system,sans-serif;
+  font-weight:300;
+  line-height:1.6;
+}
+img{max-width:100%;display:block}
+a{color:var(--accent);text-decoration:none}
+a:hover{color:var(--gold)}
+h1,h2,h3{font-family:'Cormorant Garamond',Georgia,serif;font-weight:500;margin:0;line-height:1.1}
+.wrap{max-width:1280px;margin:0 auto}
+.eyebrow{font-size:12px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold);font-weight:500}
+.rule{width:72px;height:1px;background:var(--accent)}
+
+/* Hero */
+.hero{display:flex;align-items:stretch;min-height:660px}
+.hero-text{flex:1;padding:88px var(--pad);display:flex;flex-direction:column;justify-content:center;gap:26px}
+.hero h1{font-size:clamp(52px,6vw,86px)}
+.hero-sub{font-size:23px;color:#4A463F;line-height:1.4}
+.hero-note{font-size:16px;color:var(--ink-muted)}
+.hero-photo{width:500px;flex-shrink:0;object-fit:cover;object-position:center 22%}
+
+/* Bandeau accroche */
+.band{background:var(--accent);color:var(--ground);padding:76px var(--pad)}
+.band h2{font-size:clamp(30px,3.4vw,42px);line-height:1.22;max-width:940px}
+.band p{font-size:18px;line-height:1.65;color:var(--accent-text);max-width:860px;margin:22px 0 0}
+
+/* Boutons */
+.cta{padding:76px var(--pad);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.card{padding:32px 30px;display:flex;flex-direction:column;justify-content:center;gap:10px;min-height:132px;transition:transform .18s ease,box-shadow .18s ease}
+.card:hover{transform:translateY(-2px);box-shadow:0 10px 30px rgba(27,26,23,.10)}
+.card strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:30px;font-weight:500;display:block}
+.card span{font-size:14px}
+.card-primary{background:var(--accent);color:var(--ground)}
+.card-primary:hover{color:var(--ground)}
+.card-primary span{color:var(--accent-text)}
+.card-ghost{background:#fff;border:1px solid var(--rule);color:var(--ink)}
+.card-ghost:hover{color:var(--ink);border-color:var(--gold)}
+.card-ghost span{color:var(--ink-muted)}
+
+/* Réassurance */
+.trust{background:var(--ground-warm);padding:66px var(--pad);display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:52px}
+.trust h3{font-size:26px;margin:14px 0 10px}
+.trust p{font-size:15px;line-height:1.6;color:var(--ink-soft);margin:0}
+
+/* À propos */
+.about{padding:76px var(--pad);display:flex;gap:64px;align-items:flex-start}
+.about-text{flex:1;display:flex;flex-direction:column;gap:18px}
+.about-text h2{font-size:40px;line-height:1.15}
+.about-text p{font-size:16px;line-height:1.7;color:var(--ink-soft);margin:0}
+.about-box{width:460px;flex-shrink:0;border:1px solid var(--rule);background:#fff;padding:34px 32px}
+.about-box h3{font-size:26px;margin-bottom:14px}
+.about-box ul{margin:0;padding:0;list-style:none;font-size:15px;line-height:1.9;color:var(--ink-soft)}
+
+/* Pied de page */
+footer{background:var(--accent);color:var(--ground);padding:64px var(--pad)}
+.foot-top{display:flex;justify-content:space-between;align-items:flex-start;gap:48px;flex-wrap:wrap}
+.foot-id h2{font-size:38px;color:var(--ground);margin-bottom:12px}
+.foot-id p{font-size:15px;color:var(--accent-text);margin:0 0 12px}
+.foot-id a{display:block;font-size:17px;color:var(--ground);margin-bottom:6px}
+.foot-nav{display:flex;flex-direction:column;gap:10px;align-items:flex-end}
+.foot-nav a{font-size:15px;color:var(--accent-text)}
+.foot-nav a:hover{color:var(--ground)}
+.foot-line{height:1px;background:var(--accent-line);margin:36px 0 24px}
+.legal{font-size:12px;line-height:1.75;color:var(--accent-faint);max-width:1040px}
+.legal p{margin:0 0 10px}
+
+@media (max-width:900px){
+  :root{--pad:26px}
+  .hero{flex-direction:column-reverse;min-height:0}
+  .hero-photo{width:100%;height:330px;object-position:center 20%}
+  .hero-text{padding:34px var(--pad) 32px;gap:16px}
+  .hero h1{font-size:50px}
+  .hero-sub{font-size:18px}
+  .hero-note{font-size:14px}
+  .band{padding:40px var(--pad)}
+  .band p{font-size:15px;margin-top:16px}
+  .cta{grid-template-columns:1fr;padding:32px var(--pad);gap:14px}
+  .card{padding:22px 24px;min-height:0}
+  .card strong{font-size:25px}
+  .card span{font-size:13px}
+  .trust{grid-template-columns:1fr;padding:36px var(--pad);gap:28px}
+  .trust h3{font-size:23px}
+  .about{flex-direction:column;padding:36px var(--pad);gap:24px}
+  .about-text h2{font-size:30px}
+  .about-box{width:100%;padding:24px 22px}
+  footer{padding:36px var(--pad)}
+  .foot-nav{align-items:flex-start}
+  .foot-id h2{font-size:30px}
+  .legal{font-size:11px;line-height:1.7}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <div class="hero-text">
+    <div class="eyebrow">Sotheby&rsquo;s International Realty</div>
+    <h1>Betty Coiffard</h1>
+    <div class="hero-sub">Immobilier de prestige<br>Pays d&rsquo;Aix-en-Provence</div>
+    <div class="rule"></div>
+    <div class="hero-note">Consultant en immobilier de prestige &middot; Estimation confidentielle</div>
+  </div>
+  <img class="hero-photo" src="betty.jpg" srcset="betty-mobile.jpg 760w, betty.jpg 1100w" sizes="(max-width: 900px) 100vw, 500px" alt="Portrait de Betty Coiffard" width="1100" height="1466" fetchpriority="high">
+</header>
+
+<section class="band">
+  <h2>Vendre une propriété de caractère ne se résume pas à publier une annonce.</h2>
+  <p>C&rsquo;est choisir le bon moment, le bon prix, et les bons acquéreurs &mdash; souvent au-delà de la région. J&rsquo;accompagne un nombre limité de propriétaires chaque année, avec le réseau international de Sotheby&rsquo;s.</p>
+</section>
+
+<section class="cta">
+  <a class="card card-primary" href="https://tally.so/r/RGOb7j?utm_source=instagram&amp;utm_medium=bio&amp;utm_campaign=estimation">
+    <strong>Estimer mon bien</strong>
+    <span>Formulaire confidentiel &mdash; réponse sous 48 h</span>
+  </a>
+  <a class="card card-ghost" href="https://www.sothebysrealty.com/fra/ventes/int/180-a-df220322122810852411-agentid?utm_source=instagram&amp;utm_medium=bio&amp;utm_campaign=biens">
+    <strong>Découvrir les biens</strong>
+    <span>Le portefeuille que je représente</span>
+  </a>
+  <a class="card card-ghost" href="https://wa.me/33603505027?text=Bonjour%20Betty%2C%20je%20vous%20contacte%20au%20sujet%20de">
+    <strong>Échanger de vive voix</strong>
+    <span>WhatsApp &middot; +33 6 03 50 50 27</span>
+  </a>
+</section>
+
+<section class="trust">
+  <div>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A6F4A" stroke-width="1.2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.7 2.5 15.3 0 18M12 3c-2.5 2.7-2.5 15.3 0 18"/></svg>
+    <h3>Diffusion internationale</h3>
+    <p>Votre bien présenté sur sothebysrealty.com et relayé auprès du réseau, présent dans 84 pays.</p>
+  </div>
+  <div>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A6F4A" stroke-width="1.2" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5.5l3.5 2"/></svg>
+    <h3>Estimation confidentielle</h3>
+    <p>Une valeur étayée par les transactions réelles de votre commune, pas par un algorithme.</p>
+  </div>
+  <div>
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#8A6F4A" stroke-width="1.2" aria-hidden="true"><rect x="4.5" y="10.5" width="15" height="9.5" rx="1.5"/><path d="M8 10.5V7.5a4 4 0 0 1 8 0v3"/></svg>
+    <h3>Discrétion absolue</h3>
+    <p>Vente confidentielle possible : aucun panneau, aucune diffusion publique, acquéreurs qualifiés en amont.</p>
+  </div>
+</section>
+
+<section class="about">
+  <div class="about-text">
+    <div class="eyebrow">À propos</div>
+    <h2>Aix-en-Provence, et tout autour</h2>
+    <p>Vingt ans dans un grand groupe à concevoir et améliorer l&rsquo;expérience client, puis dix ans d&rsquo;immobilier de prestige à Aix-en-Provence. De la première vie, j&rsquo;ai gardé une exigence : écouter avant de proposer, et faire en sorte que chaque étape soit limpide.</p>
+    <p>De la seconde, une connaissance fine du marché aixois et de ses environs &mdash; les quartiers, les prix réellement pratiqués, et les acquéreurs qui cherchent ici sans y habiter encore.</p>
+  </div>
+  <div class="about-box">
+    <h3>Ce que je prends en charge</h3>
+    <ul>
+      <li>Estimation argumentée et stratégie de prix</li>
+      <li>Préparation du bien et reportage photo</li>
+      <li>Diffusion locale et internationale</li>
+      <li>Sélection et qualification des acquéreurs</li>
+      <li>Négociation et suivi jusqu&rsquo;à l&rsquo;acte</li>
+    </ul>
+  </div>
+</section>
+
+<footer>
+  <div class="foot-top">
+    <div class="foot-id">
+      <h2>Betty Coiffard</h2>
+      <p>Immobilier de prestige &mdash; Pays d&rsquo;Aix-en-Provence</p>
+      <a href="tel:+33603505027">+33 6 03 50 50 27</a>
+      <a href="mailto:betty.coiffard@sothebysrealty.com">betty.coiffard@sothebysrealty.com</a>
+    </div>
+    <nav class="foot-nav">
+      <a href="https://tally.so/r/RGOb7j?utm_source=site&amp;utm_medium=footer&amp;utm_campaign=estimation">Estimer mon bien</a>
+      <a href="https://www.sothebysrealty.com/fra/ventes/int/180-a-df220322122810852411-agentid">Les biens que je représente</a>
+      <a href="https://wa.me/33603505027">WhatsApp</a>
+    </nav>
+  </div>
+  <div class="foot-line"></div>
+  <div class="legal">
+    <p>Betty Coiffard (EI) &mdash; agent commercial indépendant immatriculé au RSAC sous le n&deg; 840523211, agissant pour le compte de la société VPAS BBA SARL, exploitant l&rsquo;agence Aix-en-Provence Sotheby&rsquo;s International Realty, 34 rue Cardinale, 13100 Aix-en-Provence &mdash; RCS Marseille n&deg; 533416525, TVA FR41533416525, titulaire de la carte professionnelle Transactions sur immeubles et fonds de commerce n&deg; 13102018000034969 délivrée par Marseille. Responsabilité civile professionnelle : AXA Assurances, 4 ter avenue Malherbe, 13100 Aix-en-Provence, n&deg; 5L397756O4, valable sur le territoire national. Ne peut recevoir ni détenir aucun fonds.</p>
+    <p>Données personnelles &mdash; les informations transmises via le formulaire d&rsquo;estimation servent uniquement à traiter votre demande, sont conservées trois ans et ne font l&rsquo;objet d&rsquo;aucune cession. Droit d&rsquo;accès, de rectification et de suppression sur simple demande à l&rsquo;adresse ci-dessus.</p>
+  </div>
+</footer>
+
+</body>
+</html>
